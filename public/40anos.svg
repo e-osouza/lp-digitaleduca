@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="167" height="101.047" viewBox="0 0 167 101.047">
+  <defs>
+    <linearGradient id="linear-gradient" x1="1" y1="0.689" x2="-0.222" y2="1" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#5affdb"/>
+      <stop offset="1" stop-color="#049371"/>
+    </linearGradient>
+    <clipPath id="clip-path">
+      <rect id="Retângulo_139" data-name="Retângulo 139" width="121.859" height="60.886" stroke="rgba(0,0,0,0)" stroke-width="1" fill="url(#linear-gradient)"/>
+    </clipPath>
+  </defs>
+  <g id="Grupo_340" data-name="Grupo 340" transform="translate(-1655.233 -2293.444)">
+    <text id="experts" transform="translate(1655.233 2359.49)" fill="#fff" font-size="35" font-family="AkzidGrtskNext-Med, Akzidenz-Grotesk Next" letter-spacing="0.05em"><tspan x="0" y="26">experts</tspan></text>
+    <text id="de" transform="translate(1655.233 2353.49)" fill="#fff" font-size="25" font-family="AkzidGrtskNext-Regular, Akzidenz-Grotesk Next"><tspan x="0" y="0">de</tspan></text>
+    <g id="Grupo_339" data-name="Grupo 339" transform="translate(1692.12 2293.444)">
+      <g id="Grupo_338" data-name="Grupo 338" transform="translate(-4 0)" clip-path="url(#clip-path)">
+        <path id="Caminho_96" data-name="Caminho 96" d="M30.527,60.354V49.5H0V37.227L28.256,2.411H49.869v34.4h9.167V49.5H49.869V60.354Zm.168-41.8a192.311,192.311,0,0,1-13.2,18.249H30.527c0-8.579,0-13.288.168-18.249" transform="translate(0 -0.897)" stroke="rgba(0,0,0,0)" stroke-width="1" fill="url(#linear-gradient)"/>
+        <path id="Caminho_97" data-name="Caminho 97" d="M130.61,60.887c-18.669,0-29.77-10.344-29.77-31.032C100.84,10.177,111.52,0,130.779,0c20.772,0,28.592,14.044,28.592,30.527,0,19.511-10.26,30.359-28.761,30.359m-.252-46.926c-6.139,0-9.587,4.373-9.587,16.062,0,12.7,3.364,17.072,9.84,17.072,6.224,0,9.419-4.625,9.419-16.315,0-12.278-3.448-16.819-9.671-16.819" transform="translate(-37.512 0)" stroke="rgba(0,0,0,0)" stroke-width="1" fill="url(#linear-gradient)"/>
+      </g>
+    </g>
+  </g>
+</svg>

@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="57" height="57" viewBox="0 0 57 57">
+  <defs>
+    <linearGradient id="linear-gradient" x1="0.5" x2="0.5" y2="1" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#f7bc4e"/>
+      <stop offset="1" stop-color="#e0a027"/>
+    </linearGradient>
+    <clipPath id="clip-path">
+      <rect id="Retângulo_135" data-name="Retângulo 135" width="57" height="57" transform="translate(0 0.429)" fill="url(#linear-gradient)"/>
+    </clipPath>
+  </defs>
+  <g id="Grupo_790" data-name="Grupo 790" transform="translate(-1211 -4660)">
+    <g id="Grupo_335" data-name="Grupo 335" transform="translate(1210.978 4659.143)">
+      <g id="Grupo_334" data-name="Grupo 334" transform="translate(0.022 0.429)" clip-path="url(#clip-path)">
+        <path id="Caminho_95" data-name="Caminho 95" d="M48.311,31.381h0a8.465,8.465,0,0,0,0-11.971,8.465,8.465,0,0,1-2.479-5.986,8.465,8.465,0,0,0-8.465-8.465,8.465,8.465,0,0,1-5.986-2.48,8.465,8.465,0,0,0-11.971,0,8.465,8.465,0,0,1-5.986,2.48,8.465,8.465,0,0,0-8.465,8.465A8.466,8.466,0,0,1,2.48,19.41h0a8.465,8.465,0,0,0,0,11.971h0a8.465,8.465,0,0,1,2.479,5.986,8.465,8.465,0,0,0,8.465,8.465,8.465,8.465,0,0,1,5.986,2.479,8.465,8.465,0,0,0,11.971,0,8.465,8.465,0,0,1,5.986-2.479,8.465,8.465,0,0,0,8.465-8.465,8.464,8.464,0,0,1,2.479-5.986" transform="translate(3.105 3.533)" fill="url(#linear-gradient)"/>
+      </g>
+    </g>
+    <text id="_1" data-name="1" transform="translate(1239 4701)" fill="#141e30" font-size="36" font-family="AkzidGrtskNext-Bold, Akzidenz-Grotesk Next" font-weight="700"><tspan x="-10.8" y="0">1</tspan></text>
+  </g>
+</svg>

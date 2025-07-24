@@ -2,7 +2,11 @@
 
 :root {
   --background: #ffffff;
-  --foreground: #171717;
+  --primary: #141e30;
+  --amarelo: #E0A027;
+  --secondary: #424a59;
+  --tertiary: #727882;
+  --largura: 1300px;
 }
 
 @theme inline {
