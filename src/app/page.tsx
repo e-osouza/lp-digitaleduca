@@ -1,7 +1,7 @@
 import CardCurso from "../../componentes/cardCurso";
 import Image from "next/image";
 import ImageSwiper from "../../componentes/slideCursos";
-import { BadgeCheck, ChartNoAxesColumn, ChartNoAxesColumnIncreasing, CirclePlay, GraduationCap, LucideGraduationCap, ShieldCheck, TvMinimal, UsersRound } from "lucide-react";
+import { BadgeCheck, ChartNoAxesColumnIncreasing, CirclePlay, GraduationCap, LucideGraduationCap, ShieldCheck, TvMinimal, UsersRound } from "lucide-react";
 import FAQ from "../../componentes/faq";
 
 export default function Home() {
@@ -23,9 +23,9 @@ export default function Home() {
 
       {/* section 2 */}
       <div className="max-w-[var(--largura)] mx-auto px-5 py-20">
-        <h3 className="text-3xl font-extrabold text-white w-[500px] mx-auto text-center mb-10">DSX 2025: as palestras que estão moldando o futuro dos negócios</h3>
+        <h3 className="text-3xl font-extrabold text-white max-w-[500px] mx-auto text-center mb-10">DSX 2025: as palestras que estão moldando o futuro dos negócios</h3>
 
-        <div className="grid grid-cols-3 gap-8">
+        <div className="grid grid-cols-2 lg:grid-cols-3 gap-5 lg:gap-8">
           <CardCurso/>
           <CardCurso/>
           <CardCurso/>
@@ -34,17 +34,17 @@ export default function Home() {
           <CardCurso/>
         </div>
 
-        <button className="bg-[var(--amarelo)] rounded-full px-8 py-5 text-md leading-[1] font-bold uppercase block mx-auto mt-10">Assine para asssistir</button>
+        <a href="https:/painel.digitaleduca.com.vc/checkout" className="bg-[var(--amarelo)] rounded-full px-8 py-5 text-md leading-[1] font-bold table mx-auto mt-10 uppercase">Assine para asssistir</a>
       </div>
 
       {/* section 3 */}
       <div className="max-w-[var(--largura)] mx-auto px-5 py-20">
-        <div className="grid grid-cols-5 gap-5 items-center">
-          <div className="col-span-3 max-w-[450px]">
-            <h3 className="text-4xl font-extrabold text-white mb-4">Aprenda direto com os palestrantes do DSX 2025</h3>
-            <span className="text-white">Acesse agora insights práticos dos palestrantes e descubra o que pode acelerar o crescimento do seu negócio.</span>
+        <div className="grid grid-cols-1 lg:grid-cols-5 gap-0 lg:gap-5 items-center">
+          <div className="col-span-1 lg:col-span-3 max-w-[450px]">
+            <h3 className="text-4xl font-extrabold text-center lg:text-left text-white mb-4">Aprenda direto com os palestrantes do DSX 2025</h3>
+            <p className="text-white text-center lg:text-left w-full mb-5">Acesse agora insights práticos dos palestrantes e descubra o que pode acelerar o crescimento do seu negócio.</p>
           </div>
-          <div className="flex gap-5 col-span-2 justify-end">
+          <div className="flex gap-5 col-span-1 lg:col-span-2 justify-center lg:justify-end">
             <Image src="/papodigital.svg" alt="Digital Educa" width={120} height={40} priority />
             <Image src="/40anos.svg" alt="Digital Educa" width={120} height={40} priority />
           </div>
@@ -112,7 +112,7 @@ export default function Home() {
             <button className="rounded-full border-2 text-white leading-[1] font-bold px-4 py-2 uppercase">1 ano de acesso</button>
           </div>
           <h4 className="text-4xl font-bold mt-4 mb-5">R$350,00</h4>
-          <button className="uppercase bg-[var(--amarelo)] rounded-full font-bold text-black px-8 py-4">Garantir minha vaga</button>
+          <a href="https:/painel.digitaleduca.com.vc/checkout" className="uppercase block bg-[var(--amarelo)] rounded-full font-bold text-black px-8 py-4">Garantir minha vaga</a>
           <p className="text-sm mt-5 flex gap-2 justify-center"><ShieldCheck size={20}/>Segurança de 7 dias para testes </p>
         </div>
       </div>
@@ -122,7 +122,7 @@ export default function Home() {
 
         <div className="grid grid-cols-1 lg:grid-cols-10 gap-5 lg:gap-15 items-center">
           <h3 className="text-3xl font-semibold text-white mb-5 md:mb-0 col-span-3">Experiência completa para quem quer ir <p className="font-black">além do básico</p></h3>
-          <div className="grid grid-cols-4 gap-5 lg:gap-10 col-span-7">
+          <div className="grid grid-cols-2 lg:grid-cols-4 gap-5 lg:gap-10 col-span-7">
             <div className="text-white">
               <div className="bg-[var(--secondary)] w-10 h-10 rounded-lg flex justify-center items-center mb-3">
                 <GraduationCap/>
