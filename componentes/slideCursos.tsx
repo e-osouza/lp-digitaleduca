@@ -10,16 +10,16 @@ import "swiper/css/navigation";
 
 import { palestrantes } from "../services/palestrantes"; // ajuste o caminho conforme sua estrutura
 
-export default function ImageSwiper() {
+export default function SlideCursos() {
   const prevRef = useRef<HTMLDivElement | null>(null);
   const nextRef = useRef<HTMLDivElement | null>(null);
 
   return (
     <div className="mx-auto my-10 rounded-xl relative">
-      <div ref={prevRef} className="swiper-button-prev-custom p-3 bg-white rounded-full absolute left-[-20px] top-1/2 -translate-y-1/2 z-2 cursor-pointer">
+      <div ref={prevRef} className="swiper-button-prev-custom p-3 bg-white rounded-full absolute left-[-20px] top-1/2 -translate-y-1/2 z-2 cursor-pointer hidden lg:block">
         <ChevronLeft />
       </div>
-      <div ref={nextRef} className="swiper-button-next-custom p-3 bg-white rounded-full absolute right-[-20px] top-1/2 -translate-y-1/2 z-2 cursor-pointer">
+      <div ref={nextRef} className="swiper-button-next-custom p-3 bg-white rounded-full absolute right-[-20px] top-1/2 -translate-y-1/2 z-2 cursor-pointer hidden lg:block">
         <ChevronRight />
       </div>
 
@@ -70,7 +70,7 @@ export default function ImageSwiper() {
                 alt=""
                 width={250}
                 height={250}
-                className="absolute bottom-[-80px] z-2"
+                className="absolute bottom-[-30%] z-2"
                 priority
               />
               <Image

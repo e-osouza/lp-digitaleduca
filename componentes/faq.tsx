@@ -34,9 +34,9 @@ export default function FAQ() {
   return (
     <div className="max-w-[var(--largura)] mx-auto px-5 py-20">
       <div className="grid grid-cols-1 lg:grid-cols-10 gap-2 lg:gap-15 items-center mb-8">
-        <h3 className="text-3xl font-extrabold text-white col-span-4">FAQ Estratégico</h3>
-        <div className="text-white lg:gap-10 col-span-6">
-          Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+        <h3 className="text-3xl font-extrabold text-white col-span-1 lg:col-span-4 text-center lg:text-left">FAQ Estratégico</h3>
+        <div className="text-white lg:gap-10 col-span-1 lg:col-span-6 text-center lg:text-left">
+          Respostas para dominar a plataforma de cursos e acelerar seu crescimento profissional!
         </div>
       </div>
 

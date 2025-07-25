@@ -1,8 +1,9 @@
 import CardCurso from "../../componentes/cardCurso";
 import Image from "next/image";
-import ImageSwiper from "../../componentes/slideCursos";
 import { BadgeCheck, ChartNoAxesColumnIncreasing, CirclePlay, GraduationCap, LucideGraduationCap, ShieldCheck, TvMinimal, UsersRound } from "lucide-react";
 import FAQ from "../../componentes/faq";
+import SlideCursos from "../../componentes/slideCursos";
+import CardLocais from "../../componentes/cardLocais";
 
 export default function Home() {
   return (
@@ -14,33 +15,27 @@ export default function Home() {
         <div className="max-w-[var(--largura)] mx-auto px-5">
           <h1 className="text-white text-center text-5xl/13 font-extrabold">Se especialize em <span className="block text-[#efcf6b]">Marketing e Vendas</span></h1>
           <p className="text-white text-center mx-auto text-lg mt-5 max-w-[450px]">A plataforma completa para você dominar as habilidades que o mercado exige: do zero ao avançado.</p>
-          <div className="flex gap-5 justify-center flex-col md:flex-row mt-15">
-            <button className="bg-[var(--amarelo)] rounded-full px-8 py-5 text-md leading-[1] font-bold uppercase">Ver todos os cursos</button>
-            <button className="border-2 border-white text-white rounded-full px-8 py-5 text-md leading-[1] font-bold uppercase">Começar agora</button>
+          <div className="flex gap-5 justify-center items-center flex-col md:flex-row mt-15">
+            <a href="#cursos" className="bg-[var(--amarelo)] rounded-full px-8 py-5 text-md leading-[1] font-bold uppercase">Ver todos os cursos</a>
+            <a href="https://painel.digitaleduca.com.vc/checkout" className="border-2 border-white text-white rounded-full px-8 py-5 text-md leading-[1] font-bold uppercase">Começar agora</a>
           </div>
         </div>
       </div>
 
       {/* section 2 */}
-      <div className="max-w-[var(--largura)] mx-auto px-5 py-20">
+      <div id="cursos" className="lg:max-w-[var(--largura)] max-w-[100%] mx-auto px-0 lg:px-5 py-20">
         <h3 className="text-3xl font-extrabold text-white max-w-[500px] mx-auto text-center mb-10">DSX 2025: as palestras que estão moldando o futuro dos negócios</h3>
-
-        <div className="grid grid-cols-2 lg:grid-cols-3 gap-5 lg:gap-8">
-          <CardCurso/>
-          <CardCurso/>
-          <CardCurso/>
-          <CardCurso/>
-          <CardCurso/>
-          <CardCurso/>
+        <div className="">
+          <CardLocais/>
         </div>
 
         <a href="https://painel.digitaleduca.com.vc/checkout" className="bg-[var(--amarelo)] rounded-full px-8 py-5 text-md leading-[1] font-bold table mx-auto mt-10 uppercase">Assine para asssistir</a>
       </div>
 
       {/* section 3 */}
-      <div className="max-w-[var(--largura)] mx-auto px-5 py-20">
+      <div className="lg:max-w-[var(--largura)] max-w-[100%] mx-auto px-0 lg:px-5 py-20">
         <div className="grid grid-cols-1 lg:grid-cols-5 gap-0 lg:gap-5 items-center">
-          <div className="col-span-1 lg:col-span-3 max-w-[450px]">
+          <div className="col-span-1 lg:col-span-3 max-w-[450px] px-5">
             <h3 className="text-4xl font-extrabold text-center lg:text-left text-white mb-4">Aprenda direto com os palestrantes do DSX 2025</h3>
             <p className="text-white text-center lg:text-left w-full mb-5">Acesse agora insights práticos dos palestrantes e descubra o que pode acelerar o crescimento do seu negócio.</p>
           </div>
@@ -49,7 +44,7 @@ export default function Home() {
             <Image src="/40anos.svg" alt="Digital Educa" width={120} height={40} priority />
           </div>
         </div>
-        <ImageSwiper />
+        <SlideCursos />
       </div>
 
       {/* section 4 */}
@@ -112,7 +107,7 @@ export default function Home() {
             <button className="rounded-full border-2 text-white leading-[1] font-bold px-4 py-2 uppercase">1 ano de acesso</button>
           </div>
           <h4 className="text-4xl font-bold mt-4 mb-5">R$350,00</h4>
-          <a href="https://ainel.digitaleduca.com.vc/checkout" className="uppercase block bg-[var(--amarelo)] rounded-full font-bold text-black px-8 py-4">Garantir minha vaga</a>
+          <a href="https://painel.digitaleduca.com.vc/checkout" className="uppercase block bg-[var(--amarelo)] rounded-full font-bold text-black px-8 py-4">Garantir minha vaga</a>
           <p className="text-sm mt-5 flex gap-2 justify-center"><ShieldCheck size={20}/>Segurança de 7 dias para testes </p>
         </div>
       </div>
@@ -121,8 +116,8 @@ export default function Home() {
       <div className="max-w-[var(--largura)] mx-auto px-5 py-20">
 
         <div className="grid grid-cols-1 lg:grid-cols-10 gap-5 lg:gap-15 items-center">
-          <h3 className="text-3xl font-semibold text-white mb-5 md:mb-0 col-span-3">Experiência completa para quem quer ir <p className="font-black">além do básico</p></h3>
-          <div className="grid grid-cols-2 lg:grid-cols-4 gap-5 lg:gap-10 col-span-7">
+          <h3 className="text-3xl font-semibold text-white mb-5 md:mb-0 col-span-1 lg:col-span-3 text-center lg:text-left">Experiência completa para quem quer ir <p className="font-black">além do básico</p></h3>
+          <div className="grid grid-cols-2 lg:grid-cols-4 gap-5 lg:gap-10 col-span-1 lg:col-span-7">
             <div className="text-white">
               <div className="bg-[var(--secondary)] w-10 h-10 rounded-lg flex justify-center items-center mb-3">
                 <GraduationCap/>

@@ -4,7 +4,7 @@ import Image from 'next/image';
 
 export default function Header() {
   return (
-    <header className="bg-[var(--primary)] text-white">
+    <header className="w-full text-white absolute">
       <div className="max-w-[var(--largura)] mx-auto px-5 py-4">
         <div className="flex items-center justify-between">
 
@@ -42,7 +42,7 @@ export default function Header() {
           {/* Right Side Buttons */}
           <div className="flex items-center space-x-4">
             <a href="https://painel.digitaleduca.com.vc"
-              className="text-gray-300 hover:text-white flex items-center space-x-2 text-sm lg:text-lg"
+              className="text-white flex items-center space-x-2 text-sm lg:text-lg"
             >
               <User size={16}/>
               <span className="font-bold">ENTRAR</span>
