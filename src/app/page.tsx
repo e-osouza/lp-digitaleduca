@@ -34,7 +34,7 @@ export default function Home() {
           <CardCurso/>
         </div>
 
-        <a href="https:/painel.digitaleduca.com.vc/checkout" className="bg-[var(--amarelo)] rounded-full px-8 py-5 text-md leading-[1] font-bold table mx-auto mt-10 uppercase">Assine para asssistir</a>
+        <a href="https://painel.digitaleduca.com.vc/checkout" className="bg-[var(--amarelo)] rounded-full px-8 py-5 text-md leading-[1] font-bold table mx-auto mt-10 uppercase">Assine para asssistir</a>
       </div>
 
       {/* section 3 */}
@@ -112,7 +112,7 @@ export default function Home() {
             <button className="rounded-full border-2 text-white leading-[1] font-bold px-4 py-2 uppercase">1 ano de acesso</button>
           </div>
           <h4 className="text-4xl font-bold mt-4 mb-5">R$350,00</h4>
-          <a href="https:/painel.digitaleduca.com.vc/checkout" className="uppercase block bg-[var(--amarelo)] rounded-full font-bold text-black px-8 py-4">Garantir minha vaga</a>
+          <a href="https://ainel.digitaleduca.com.vc/checkout" className="uppercase block bg-[var(--amarelo)] rounded-full font-bold text-black px-8 py-4">Garantir minha vaga</a>
           <p className="text-sm mt-5 flex gap-2 justify-center"><ShieldCheck size={20}/>Segurança de 7 dias para testes </p>
         </div>
       </div>

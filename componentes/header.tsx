@@ -41,13 +41,13 @@ export default function Header() {
 
           {/* Right Side Buttons */}
           <div className="flex items-center space-x-4">
-            <a href="https:/painel.digitaleduca.com.vc"
+            <a href="https://painel.digitaleduca.com.vc"
               className="text-gray-300 hover:text-white flex items-center space-x-2 text-sm lg:text-lg"
             >
               <User size={16}/>
               <span className="font-bold">ENTRAR</span>
             </a>
-            <a href="https:/painel.digitaleduca.com.vc/checkout" className="bg-transparent border-2 border-yellow-500 text-white hover:bg-yellow-500 hover:text-slate-800 transition-all duration-200 flex items-center space-x-2 px-5 py-2 rounded-full cursor-pointer text-sm lg:text-lg">
+            <a href="https://painel.digitaleduca.com.vc/checkout" className="bg-transparent border-2 border-yellow-500 text-white hover:bg-yellow-500 hover:text-slate-800 transition-all duration-200 flex items-center space-x-2 px-5 py-2 rounded-full cursor-pointer text-sm lg:text-lg">
               <span className="font-bold">ASSINATURA</span>
               <LogOut size={16} />
             </a>
