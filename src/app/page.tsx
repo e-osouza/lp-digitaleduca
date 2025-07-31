@@ -48,56 +48,6 @@ export default function Home() {
         <SlideCursos />
       </div>
 
-      {/* section 4 */}
-      <div className="max-w-[var(--largura)] mx-auto px-5 mb-15">
-        <div className="text-white text-center mb-10">
-          <h3 className="text-3xl font-extrabold mb-2">Próximos cursos que vão mudar o jogo</h3>
-          <span>Conteúdo pensado para acelerar sua jornada profissional.</span>
-        </div>
-
-        <div className="grid grid-cols-1 md:grid-cols-2 mx-auto gap-5 max-w-[700px]">
-          <div className="border-2 border-[#0D68F9] rounded-xl w-full relative overflow-hidden">
-            <span className="absolute top-4 right-4 z-3 bg-[var(--amarelo)] text-sm uppercase font-bold leading-[1] text-black rounded-full px-4 py-2">Em breve</span>
-            <Image src="/iconcadeado.svg" alt="" width={250} height={250} priority className="absolute left-[-40px] top-[20px]"/>
-            <Image
-              src="/capa-curso.svg"
-              alt="Capa"
-              className="w-full h-auto"
-              width={0}
-              height={0}
-              sizes="100vw"
-              priority
-            />
-            <h3 className="text-white p-5 font-semibold text-2xl leading-[1.2] aspect-20/13">Método QVO - Como criar apresentar e converter ofertas no B2B</h3>
-            <div className="border-t-1 border-[#0D68F9] p-3 flex gap-1 items-center text-[12px]">
-              <div className="flex gap-1 items-center justify-center text-[#0D68F9] min-w-[33.333%]"><ChartNoAxesColumnIncreasing size={20}/>Avançado</div>
-              <div className="flex gap-1 items-center justify-center text-[#0D68F9] min-w-[33.333%]"><CirclePlay size={20}/>+120h de Aulas</div>
-              <div className="flex gap-1 items-center justify-center text-[#0D68F9] min-w-[33.333%]"><LucideGraduationCap size={20}/>Cerfificado</div>
-            </div>
-          </div>
-          <div className="border-2 border-[#0D68F9] rounded-xl w-full relative overflow-hidden">
-            <span className="absolute top-4 right-4 z-3 bg-[var(--amarelo)] text-sm uppercase font-bold leading-[1] text-black rounded-full px-4 py-2">Em breve</span>
-            <Image src="/iconcadeado.svg" alt="" width={250} height={250} priority className="absolute left-[-40px] top-[20px]"/>
-            <Image
-              src="/capa-curso.svg"
-              alt="Capa"
-              className="w-full h-auto"
-              width={0}
-              height={0}
-              sizes="100vw"
-              priority
-            />
-            <h3 className="text-white p-5 font-semibold text-2xl leading-[1.2] aspect-20/13">Vendas previsíveis - A base sólida para escalar seu faturamento</h3>
-            <div className="border-t-1 border-[#0D68F9] p-3 flex gap-1 items-center text-[12px]">
-              <div className="flex gap-1 items-center justify-center text-[#0D68F9] min-w-[33.333%]"><ChartNoAxesColumnIncreasing size={20}/>Avançado</div>
-              <div className="flex gap-1 items-center justify-center text-[#0D68F9] min-w-[33.333%]"><CirclePlay size={20}/>+120h de Aulas</div>
-              <div className="flex gap-1 items-center justify-center text-[#0D68F9] min-w-[33.333%]"><LucideGraduationCap size={20}/>Cerfificado</div>
-            </div>
-          </div>
-        </div>
-
-      </div>
-
         {/* section 5 */}
       <div className="max-w-[var(--largura)] mx-auto">
         <div className="h-auto w-[350px] mx-auto rounded-xl bg-[url('/bgpromo.svg'),linear-gradient(to_top,#0D68F9,#6A97FA)] bg-size-[100%_auto] bg-center bg-no-repeat text-white p-8 text-center">
