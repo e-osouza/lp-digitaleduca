@@ -19,10 +19,7 @@ export default function Footer() {
                 />
             </a>
             <div className="sociallinks flex gap-2 items-center mt-5">
-                <a href="" target="_blank" className="rounded-full bg-white/20 p-3"><Instagram size={18}/></a>
-                <a href="" target="_blank" className="rounded-full bg-white/20 p-3"><Facebook size={18}/></a>
-                <a href="" target="_blank" className="rounded-full bg-white/20 p-3"><Youtube size={18}/></a>
-                <a href="" target="_blank" className="rounded-full bg-white/20 p-3"><X size={18}/></a>
+                <a href="https://www.instagram.com/soudigitaleduca" target="_blank" className="rounded-full bg-white/20 p-3"><Instagram size={18}/></a>
             </div>
         </div>
 

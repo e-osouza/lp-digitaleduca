@@ -33,7 +33,7 @@ export default function RootLayout({
   return (
     <html lang="pt-BR" className="scroll-smooth">
       <head>
-        <link rel="icon" href="/icon-digitaleduca.png" sizes="any" />
+        <link rel="icon" href="./icon-digitaleduca.png" sizes="any" />
       </head>
       <body
         className={`${Outfit.className} ${geistSans.variable} ${geistMono.variable} antialiased`}
