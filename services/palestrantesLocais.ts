@@ -31,12 +31,6 @@ export const palestranteslocais: PalestranteLocais[] = [
         logo: "/logos/carlos-oshiro.png",
     },
     {
-        foto: "https://dsx.com.vc/wp-content/uploads/2025/06/RAFAEL-AMORIN-3.png",
-        nome: "Rafael Amorim",
-        descricao: "Chief Sales Officer da Pará Cabos",
-        logo: "/logos/rafael-amorim.png",
-    },
-    {
         foto: "https://dsx.com.vc/wp-content/uploads/2025/06/ALCIDES-NETTO-1.png",
         nome: "Alcides Netto",
         descricao: "Fotógrafo publicitário e criador audiovisual",
@@ -49,28 +43,10 @@ export const palestranteslocais: PalestranteLocais[] = [
         logo: "/logos/aimee-gomes.png",
     },
     {
-        foto: "https://dsx.com.vc/wp-content/uploads/2025/06/Glauber.png",
-        nome: "Glauber Gomes",
-        descricao: "Co-fundador da rumomkt e da rumo.ia, especialista em estratégia digital e inteligência artificial.",
-        logo: "/logos/glauber-gomes.png",
-    },
-    {
-        foto: "https://dsx.com.vc/wp-content/uploads/2025/06/RobertaGaspar.png",
-        nome: "Roberta Gaspar",
-        descricao: "COO do All In Club, especialista em experiência do cliente e cultura organizacional.",
-        logo: "/logos/roberta-gaspar.png",
-    },
-    {
         foto: "https://dsx.com.vc/wp-content/uploads/2025/06/FABRICIO-ALVA.png",
         nome: "Fabrício Alva",
         descricao: "Consultor estratégico, empreendedor e especialista em performance empresarial.",
         logo: "/logos/fabricio-alva.png",
-    },
-    {
-        foto: "https://dsx.com.vc/wp-content/uploads/2025/06/RODRIGOWUAGHAN-1.png",
-        nome: "Rodrigo Waughan",
-        descricao: "Presidente do Grupo Gérbera",
-        logo: "/logos/rodrigo-waughan.png",
     },
     {
         foto: "https://dsx.com.vc/wp-content/uploads/2025/06/GersonToller.png",
@@ -137,12 +113,6 @@ export const palestranteslocais: PalestranteLocais[] = [
         nome: "Mariah Acris",
         descricao: "Diretora audiovisual e publicitária.",
         logo: "/logos/mariah-acris.png",
-    },
-    {
-        foto: "https://dsx.com.vc/wp-content/uploads/2025/06/AlexMota.png",
-        nome: "Alex Mota",
-        descricao: "Head de Marketing da Construtora Engeco e especialista em marketing de luxo",
-        logo: "/logos/alex-mota.png",
     },
     {
         foto: "https://dsx.com.vc/wp-content/uploads/2025/06/CarolGuerra.png",
